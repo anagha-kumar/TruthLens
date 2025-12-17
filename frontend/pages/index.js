@@ -5,6 +5,7 @@ export default function Home() {
 
   useEffect(() => {
     const apiUrl = `${process.env.NEXT_PUBLIC_API_URL}/health`;
+    console.log("API URL:", process.env.NEXT_PUBLIC_API_URL);
 
     fetch(apiUrl)
       .then(res => res.json())
