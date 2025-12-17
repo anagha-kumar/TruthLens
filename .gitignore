@@ -1,0 +1,14 @@
+# Node.js
+frontend/node_modules/
+frontend/.next/
+
+# Python
+backend/venv/
+backend/__pycache__/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
